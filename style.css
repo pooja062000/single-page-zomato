@@ -1,0 +1,550 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.outer{
+    width: 100%;
+    /* height: 3500px; */
+    float: left;
+    /* border: 5px solid red;*/
+}
+
+.row1{
+    width: 100%;
+    height: 404px;
+    float: left;
+    /* border: 2px solid blue;*/
+}
+
+.background-img-box{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    /* border: 2px solid rgb(10, 10, 18); */
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.nav{
+    width: 80%;
+    height: 94px;
+    margin: 0 auto;
+    /* border:2px solid orangered; */
+}
+
+.logo{
+    width: 50%;
+    height: 90px;
+    float: left;
+     /*border: 2px solid yellow;*/
+}
+
+.logo-img{
+    width: 40%;
+    height:86px;
+    float: left;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/f94129104166703.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section{
+    width: 50%;
+    height: 90px;
+    float: left;
+     /*border: 2px solid mediumorchid;*/
+}
+
+.menu {
+	margin: 0 auto;
+	font-size: 19px;
+	padding-left: 120px;
+	padding-top: 16px;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	padding: 10px 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 50px;
+}
+
+.main-heading-text{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 10px;
+}
+
+.row2-popular{
+    width: 100%;
+    height: 450px;
+    float: left;
+     /*border: 3px solid crimson; */
+     background-color: rgb(228 235 242 / 44%); 
+}
+
+.coloum-popular{
+    width: 80%;
+    height: 394px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 2px solid olive; */
+}
+
+.sub-heading{
+    font-size: 30px;
+   
+}
+.box1{
+    width: 32%;
+    height: 300px;
+    float: left;
+    margin-top: 49px;
+    /* border: 2px solid orangered; */
+}
+
+.border-box1{
+    width: 90%;
+    height: 80px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+
+.text1{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.text2{
+    padding-top: 6px;
+    padding-left: 15px;
+}
+.border-box2{
+    width: 90%;
+    height: 80px;
+    margin-top: 17px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+
+.border-box3{
+    width: 90%;
+    height: 80px;
+    margin-top: 17px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+
+.box2{
+    width: 32%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 49px;
+     /*border: 2px solid pink; */
+}
+.border2-box1{
+    width: 90%;
+    height: 80px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+
+.box3{
+    width: 32%;
+    height: 300px;
+    float: left;
+    margin-top: 49px;
+    margin-left: 26px;
+     /*border: 2px solid brown; */
+}
+
+.online-order{
+    width: 100%;
+    height: 364px;
+    float: left;
+     /*border: 2px solid rgb(61, 14, 248); */
+    background-color: rgb(39 184 202 / 9%);
+}
+
+.inspiration-container{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+     /*border: 2px solid black; */
+}
+
+.container-heading{
+    font-size: 25px;
+}
+
+.pizza-box{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png);
+   background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h6{
+    padding-top: 160px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.burger{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rolls{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chowmein{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/c21624eac87ed1c8c87ef1ea52980ded1632716659.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chicken{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sandwich{
+    width: 160px;
+    height: 160px;
+    float: left;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*.top-brands-row{
+    width: 100%;
+    height: 400px;
+    float: left;
+    border: 2px solid rgb(11, 226, 11);
+}
+
+.top-brands-col{
+    width: 80%;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+.top-brands-text{
+    font-size: 28px;
+}
+
+.top-brand-box1{
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: rgb(189, 66, 66);
+    background-image: url(https://b.zmtcdn.com/data/brand_creatives/logos/1c37e696a9499e7f747984eee882ea19_1649067628.png?output-format=webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid blue;
+}*/
+
+.return{
+    width: 100%;
+    height: 815px;
+    float: left;
+    /* border: 2px solid rgb(202, 236, 13);*/
+}
+
+.return-col{
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* border: 2px solid red; */
+}
+
+.delivery{
+    font-size: 27px;
+}
+
+.bakingo{
+    width: 23%;
+    height: 233px;
+    float: left;
+    /* border: 2px solid brown; */
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+/*.bakingo img{
+width: 100%;
+height: 200px;
+}*/
+.hello{
+    width: 30%;
+    height: 100px;
+     /*border: 1px solid palegreen; */
+}
+.bakingo-img-text{
+    color: black;
+    padding-bottom: 100px;
+}
+
+h4{
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 20px;
+  
+}
+
+.rupye{
+ padding-top: 5px;
+ padding-left: 20px;
+ 
+}
+
+.domino-pizza2{
+    padding-left: 20px;
+}
+
+.basking-robbins{
+    width: 23%;
+    height: 235px;
+    float: left;
+    margin-left: 30.5px;
+    margin-top: 30px;
+    /* border: 2px solid brown; */
+    border-radius: 8px;
+}
+
+.rating-col-box5{
+    width: 23%;
+    height: 235px;
+    float: left;
+    margin-top: 120px;
+     /*border: 2px solid brown; */
+    border-radius: 8px;
+}
+
+.rating-col-box6{
+    width: 23%;
+    height: 235px;
+    float: left;
+    margin-left: 30.5px;
+    margin-top: 120px;
+     /*border: 2px solid brown; */
+    border-radius: 8px;
+}
+
+.special{
+    width: 100%;
+    height: 594px;
+    float: left;
+     /*border: 2px solid black;*/
+    background-color: #fafaf9;
+}
+
+.special-colum{
+    width: 80%;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 70px;
+     /*border: 2px solid mediumspringgreen;*/
+}
+
+.special-first-container{
+    width: 50%;
+    height: 340px;
+    float: left;
+    margin-top: 50px;
+     /*border: 2px solid navy; */
+}
+
+.offers{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(233, 176, 1);
+}
+
+.special-first-container-heading{
+    font-size: 25px;
+    color: #fa0029;
+}
+
+h2{
+    padding-top: 8px;
+    font-size: 19px;
+}
+
+p{
+    padding-top: 5px;
+}
+.special-second-container{
+    width: 46%;
+    height: 322px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 45px;
+    /* border: 2px solid navy; */
+}
+
+
+
+.about_button{
+    text-align: center;
+color: #fff;
+font-size: 16px;
+color: black;
+text-transform: capitalize;
+padding-top: 5px;
+border-radius: 3px;
+}
+.about_button:hover{
+color: white;
+background-color: rgb(240, 160, 12)
+}
+
+.about_button{
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-top: 49px;
+    border: 2px solid gray;
+}
+
+.contact{
+    width: 100%;
+    height: 330px;
+    float: left;
+     background-color:  rgb(39 184 202 / 9%);
+     /*border: 2px solid purple; */
+}
+
+.contact-col{
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 75px;
+     /*border: 2px solid peru; */
+}
+
+.from{
+    width:100%;
+    height:400px;
+    /*background-color: #5600ff0f;*/
+    border-radius: 5px;
+    margin: 0 auto;
+    /*margin-top: 20px;*/
+    }
+    .input{
+    width:280px;
+    height:40px;
+   /* margin-top: 10px;*/
+    padding-left: 8px;
+    font-size: 17px;
+    }
+    
+    .open{
+        width:280px;
+        height:40px;
+        margin-top: 30px;
+        margin-left: 140px;
+        padding-left: 8px;
+        font-size: 17px;
+    }
+
+    .map{
+    width: 100%;
+    height: 405px;
+    float: left;
+    /* border: 2px solid rgb(238, 60, 60); */
+    }
+
+    .map-col{
+    width: 100%;
+    height: 400px;
+    float: left;
+     /*border: 2px solid rgb(238, 60, 60); */
+    }
